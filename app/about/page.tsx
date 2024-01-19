@@ -83,7 +83,7 @@ const page = () => {
               />
             </div>
             <h3 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
-              WORLD'S 50 BEST RESTAURANT
+              WORLD&apos;S 50 BEST RESTAURANT
             </h3>
           </div>
           <div className="flex flex-col items-center space-y-3">

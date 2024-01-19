@@ -279,9 +279,9 @@ export default async function Home() {
               <p
                 className={`${poppins.className} text-[#C7BA76] text-xs lg:text-sm font-light leading-none`}
               >
-                Host periodic culinary events, such as chef's table dinners,
-                wine tastings, and themed evenings, unique and memorable
-                experiences.
+                Host periodic culinary events, such as chef&apos;s table
+                dinners, wine tastings, and themed evenings, unique and
+                memorable experiences.
               </p>
             </div>
             <div className=" w-40 lg:w-72 bg-slate-20 text-center flex flex-col items-center relative">
