@@ -17,7 +17,7 @@ const poppins = Poppins({
   display: "swap",
 });
 
-export default async function Home(props: { session: any }) {
+export default async function Home() {
   const session = await getServerSession({});
   return (
     <>
