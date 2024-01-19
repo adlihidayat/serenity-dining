@@ -137,7 +137,7 @@ export default async function Home() {
                 <p
                   className={`${poppins.className} text-xs lg:text-base max-w-md lg:leading-none lg:font-medium lg:mt-2 font-light text-justify text-[#909762]`}
                 >
-                  Established in 1985, Serenity Dining Co. has been a cherished
+                  Established in 1987, Serenity Dining Co. has been a cherished
                   culinary destination, captivating the hearts of patrons with
                   its timeless elegance and exceptional cuisine.
                 </p>
