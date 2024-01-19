@@ -4,7 +4,6 @@ import { Poppins } from "next/font/google";
 import Link from "next/link";
 import SuccessButton from "../components/SuccessButton";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../api/auth/[...nextauth]/route";
 
 const poppins = Poppins({
   weight: ["300", "400", "500", "600"],
@@ -13,7 +12,7 @@ const poppins = Poppins({
 });
 
 const page = async () => {
-  const session = await getServerSession(authOptions);
+  const session = await getServerSession();
 
   return (
     <main
