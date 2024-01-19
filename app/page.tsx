@@ -3,7 +3,7 @@ import { Grand_Hotel, Poppins } from "next/font/google";
 import Link from "next/link";
 import Footer from "./components/Footer";
 import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+// import { authOptions } from "./api/auth/[...nextauth]/route";
 import Nav from "./components/Nav";
 
 const grandHotel = Grand_Hotel({
@@ -17,8 +17,8 @@ const poppins = Poppins({
   display: "swap",
 });
 
-export default async function Home() {
-  const session = await getServerSession(authOptions);
+export default async function Home(props: { session: any }) {
+  const session = await getServerSession({});
   return (
     <>
       <Nav />

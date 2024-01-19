@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import Image from "next/image";
 import LoginButton from "../components/LoginButton";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../api/auth/[...nextauth]/route";
+import { useSession } from "next-auth/react";
 
 const poppins = Poppins({
   weight: ["300", "400", "500", "600"],
@@ -12,7 +12,8 @@ const poppins = Poppins({
 });
 
 const page = async () => {
-  const session = await getServerSession(authOptions);
+  const session = await getServerSession();
+  console.log(session);
   return (
     <div className="min-h-[700px] h-[85vh] relative">
       <main className="mt-28 md:mt-[150px] flex flex-col items-center">
