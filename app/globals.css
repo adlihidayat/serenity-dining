@@ -2,26 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #eec800;
+  background: rgb(3, 32, 20);
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    90deg,
+    rgba(3, 32, 20, 1) 0%,
+    rgba(29, 78, 57, 1) 100%
+  );
+}
+
+.perspective-50 {
+  perspective: 500px;
+}
+
+.snap-custom {
+  scroll-snap-type: y mandatory;
+}
+
+@layer components {
+  .button {
+    @apply border-[#eec800] rounded-full hover:bg-[#eec800] hover:text-[#0D3323] duration-300 ease-in-out;
+  }
+  .link {
+    @apply hover:text-[#a49441] duration-300;
+  }
 }

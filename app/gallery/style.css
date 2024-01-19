@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #eec800;
+  background: rgb(3, 32, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 32, 20, 1) 0%,
+    rgba(29, 78, 57, 1) 100%
+  );
+  overflow: hidden;
+}
+
+.perspective-50 {
+  perspective: 500px;
+}
+
+.snap-custom {
+  scroll-snap-type: y mandatory;
+}
+
+@layer components {
+  .button {
+    @apply border-[#eec800] rounded-full hover:bg-[#eec800] hover:text-[#0D3323] duration-300 ease-in-out;
+  }
+  .link {
+    @apply hover:text-[#a49441] duration-300;
+  }
+}
