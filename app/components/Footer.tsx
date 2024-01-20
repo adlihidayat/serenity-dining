@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div>
       <div className="flex space-x-2 items-center mb-2">
-        <a href="">
+        <a href="" aria-label="go to serenity official gmail">
           <Image
             src={"/socialMedia/gmail.svg"}
             alt=""
@@ -21,7 +21,7 @@ const Footer = () => {
             className="w-8 h-8 "
           />
         </a>
-        <a href="">
+        <a href="" aria-label="go to serenity official whatsapp">
           <Image
             src={"/socialMedia/whatsapp.svg"}
             alt=""
@@ -30,7 +30,7 @@ const Footer = () => {
             className="w-7 h-7 "
           />
         </a>
-        <a href="">
+        <a href="" aria-label="go to serenity official instagram">
           <Image
             src={"/socialMedia/instagram.svg"}
             alt=""
@@ -39,7 +39,7 @@ const Footer = () => {
             className="w-7 h-7 "
           />
         </a>
-        <a href="">
+        <a href="" aria-label="go to serenity official youtube">
           <Image
             src={"/socialMedia/youtube.svg"}
             alt=""

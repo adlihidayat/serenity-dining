@@ -68,9 +68,9 @@ const page = () => {
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
-            <h3 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
+            <h2 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
               MICHELIN STARS
-            </h3>
+            </h2>
           </div>
           <div className="flex flex-col items-center space-y-3">
             <div className="  w-[135px] h-40 md:w-[170px] md:h-52  ">
@@ -82,9 +82,9 @@ const page = () => {
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
-            <h3 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
+            <h2 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
               WORLD&apos;S 50 BEST RESTAURANT
-            </h3>
+            </h2>
           </div>
           <div className="flex flex-col items-center space-y-3">
             <div className="  w-[135px] h-40 md:w-[170px] md:h-52  ">
@@ -96,9 +96,9 @@ const page = () => {
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
-            <h3 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
+            <h2 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
               JAMES BEARD AWARD
-            </h3>
+            </h2>
           </div>
           <div className="flex flex-col items-center space-y-3">
             <div className="  w-[135px] h-40 md:w-[170px] md:h-52  ">
@@ -110,9 +110,9 @@ const page = () => {
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
-            <h3 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
+            <h2 className=" w-44 md:w-[190px] lg:w-[250px]  text-center leading-none text-lg md:text-xl ">
               ZAGAT RATINGS
-            </h3>
+            </h2>
           </div>
         </div>
       </section>
