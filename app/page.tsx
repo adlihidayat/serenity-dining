@@ -54,12 +54,12 @@ export default async function Home() {
           </Link>
         </section>
         <section className=" relative w-full flex justify-center mb-40">
-          <div className="absolute mr-44 md:top-10 lg:top-36 md:mr-72 lg:mr-[400px]">
+          <div className="absolute mr-44 md:top-10 lg:top-36 md:mr-72 lg:mr-[400px] z-20">
             <h1 className="text-[38px] md:text-5xl lg:text-6xl w-max leading-none">
               ABOUT US
             </h1>
             <p
-              className={`${poppins.className} text-sm text-justify font-thin text-[#A89707] w-[160px] md:w-[200px] lg:w-[250px] mb-3`}
+              className={`${poppins.className} text-sm text-justify leading-4 font-thin text-[#A89707] w-[160px] md:w-[200px] lg:w-[250px] mb-3`}
             >
               Established in 1985, Serenity Dining Co. has been a cherished
               culinary destination, captivating the hearts of patrons with its
@@ -72,13 +72,14 @@ export default async function Home() {
               VIEW MORE
             </Link>
           </div>
-          <div className=" w-40 h-64 md:w-64 md:h-96 lg:w-[330px] lg:h-[520px] bg-slate-800 rounded-full">
+          <div className="flex items-center justify-center w-40 h-64 md:w-64 md:h-96 lg:w-[330px] lg:h-[520px] bg-slate-800 rounded-full overflow-hidden">
             <Image
-              src={"/home/about.svg"}
-              alt=""
-              width={100}
-              height={100}
-              className=" w-full h-[102%] md:h-[107%] lg:h-[102%] object-cover"
+              priority
+              src={"/home/about.webp"}
+              alt="3"
+              width={300}
+              height={300}
+              className=" w-full h-full object-cover"
             />
           </div>
           <span className=" absolute text-[38px] md:text-5xl lg:text-7xl w-max leading-none bottom-0 md:bottom-10 lg:bottom-36 ml-44 md:ml-72 lg:ml-[400px]">
@@ -186,38 +187,38 @@ export default async function Home() {
           <div className="w-36 h-52 absolute mr-32 md:mr-64 lg:mr-[550px] -top-5 lg:-top-10">
             <div className="w-20 h-10 md:w-28 md:h-14 lg:w-40 lg:h-24 bg-slate-700 absolute -top-8 -right-12 md:-top-12 md:-right-24 lg:-top-20 lg:-right-96 z-20">
               <Image
-                src={"/home/gallery3.svg"}
+                src={"/home/gallery3.webp"}
                 alt=""
                 width={100}
                 height={100}
-                className=" w-full h-full object-cover"
+                className=" w-full h-full  object-cover brightness-50"
               />
             </div>
             <div className="w-20 h-36 md:w-28 md:h-48 lg:w-28 lg:h-80 bg-slate-600 absolute bottom-9 md:-bottom-3 lg:-bottom-36 -left-5 lg:-left-10 z-0">
               <Image
-                src={"/home/gallery4.svg"}
+                src={"/home/gallery4.webp"}
                 alt=""
                 width={100}
                 height={100}
-                className=" w-full h-full object-cover"
+                className=" w-full h-full  object-cover brightness-50"
               />
             </div>
             <div className="w-36 h-52 md:w-44 md:h-64 lg:w-80 lg:h-96 bg-slate-400 z-10 absolute">
               <Image
-                src={"/home/gallery2.svg"}
+                src={"/home/gallery2.webp"}
                 alt=""
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className=" w-full h-full object-cover"
               />
             </div>
             <div className="w-20 h-28 md:w-24 md:h-32 lg:w-32 lg:h-44 bg-slate-600 absolute -bottom-10 -right-10 z-20 md:-bottom-24 md:-right-20 lg:-bottom-60 lg:-right-60">
               <Image
-                src={"/home/gallery1.svg"}
+                src={"/home/gallery1.webp"}
                 alt=""
                 width={100}
                 height={100}
-                className=" w-full h-full object-cover"
+                className=" w-full h-full  object-cover brightness-50"
               />
             </div>
           </div>
@@ -248,13 +249,13 @@ export default async function Home() {
           <div className=" grid grid-cols-2 gap-y-5 md:gap-y-0 md:grid-cols-4 md:gap-x-4 lg:grid-cols-2 xl:grid-cols-4">
             <div className=" w-40 lg:w-72 bg-slate-20 text-center flex flex-col items-center relative">
               <Image
-                src={"/home/service1.svg"}
+                src={"/home/service1.webp"}
                 alt=""
-                width={100}
-                height={100}
-                className="mix-blend-screen w-28 h-28 lg:w-44 lg:h-44 absolute"
+                width={300}
+                height={300}
+                className="mix-blend-screen w-32 h-32 lg:w-52 lg:h-52 absolute"
               />
-              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-28">
+              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
                 PRIVATE DINING OPTIONS
               </h3>
               <p
@@ -267,13 +268,13 @@ export default async function Home() {
             </div>
             <div className=" w-40 lg:w-72 bg-slate-20 text-center flex flex-col items-center relative">
               <Image
-                src={"/home/service2.svg"}
+                src={"/home/service2.webp"}
                 alt=""
-                width={100}
-                height={100}
-                className="mix-blend-screen w-28 h-28 lg:w-44 lg:h-44 absolute"
+                width={300}
+                height={300}
+                className="mix-blend-screen w-32 h-32 lg:w-52 lg:h-52 absolute"
               />
-              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-28">
+              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
                 ARTISANAL CULINARY EVENTS
               </h3>
               <p
@@ -286,13 +287,13 @@ export default async function Home() {
             </div>
             <div className=" w-40 lg:w-72 bg-slate-20 text-center flex flex-col items-center relative">
               <Image
-                src={"/home/service3.svg"}
+                src={"/home/service3.webp"}
                 alt=""
-                width={100}
-                height={100}
-                className="mix-blend-screen w-28 h-28 lg:w-44 lg:h-44 absolute"
+                width={300}
+                height={300}
+                className="mix-blend-screen w-32 h-32 lg:w-52 lg:h-52 absolute"
               />
-              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-28">
+              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
                 PERSONALIZED CONCIERGE
               </h3>
               <p
@@ -305,13 +306,13 @@ export default async function Home() {
             </div>
             <div className=" w-40 lg:w-72 bg-slate-20 text-center flex flex-col items-center relative">
               <Image
-                src={"/home/service4.svg"}
+                src={"/home/service4.webp"}
                 alt=""
-                width={100}
-                height={100}
-                className="mix-blend-screen w-28 h-28 lg:w-44 lg:h-44 absolute"
+                width={300}
+                height={300}
+                className="mix-blend-screen w-32 h-32 lg:w-52 lg:h-52 absolute"
               />
-              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-28">
+              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
                 SOMMELIER EXPERTISE
               </h3>
               <p

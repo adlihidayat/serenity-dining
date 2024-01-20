@@ -43,11 +43,11 @@ const page = () => {
       <section className=" relative snap-start w-full h-full  flex items-center justify-center">
         <Image
           priority
-          src={"/gallery/bg1.svg"}
+          src={"/gallery/bg1.webp"}
           alt=""
-          width={100}
-          height={100}
-          className=" w-full h-full object-cover absolute"
+          width={1000}
+          height={1000}
+          className=" w-full h-full object-cover absolute brightness-50"
         />
         <motion.div
           initial="offscreen"
@@ -58,28 +58,28 @@ const page = () => {
         >
           <div className=" w-20 h-20 bg-red-500 absolute mb-[500px] lg:w-32 lg:h-32 lg:mr-[10%] lg:mb-[450px]">
             <Image
-              src={"/gallery/g1-01.png"}
+              src={"/gallery/g1-01.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute mr-96 mb-[150px] lg:w-32 lg:h-24 lg:mr-[60%] lg:mb-[200px]">
             <Image
-              src={"/gallery/g1-05.png"}
+              src={"/gallery/g1-05.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute ml-40 mt-[450px] lg:w-32 lg:h-24 lg:ml-[60%] lg:mt-[250px]">
             <Image
-              src={"/gallery/g1-03.png"}
+              src={"/gallery/g1-03.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
@@ -93,19 +93,19 @@ const page = () => {
         >
           <div className=" w-32 h-24 bg-red-500 absolute ml-60 mb-[250px] lg:w-48 lg:h-36 lg:ml-[40%] lg:mb-[350px]">
             <Image
-              src={"/gallery/g1-04.png"}
+              src={"/gallery/g1-04.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-28 h-24 bg-red-500 absolute mr-40 mt-[250px] lg:w-52 lg:h-40 lg:mr-[20%] lg:mt-[450px]">
             <Image
-              src={"/gallery/g1-02.png"}
+              src={"/gallery/g1-02.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
@@ -115,11 +115,11 @@ const page = () => {
       <section className="relative snap-start w-full h-full bg-slate-300 flex items-center justify-center">
         <Image
           priority
-          src={"/gallery/bg2.svg"}
+          src={"/gallery/bg2.webp"}
           alt=""
-          width={100}
-          height={100}
-          className=" w-full h-full object-cover absolute"
+          width={1000}
+          height={1000}
+          className=" w-full h-full object-cover absolute brightness-50"
         />
         <motion.div
           initial="offscreen"
@@ -130,28 +130,28 @@ const page = () => {
         >
           <div className=" w-20 h-20 bg-red-500 absolute mb-[500px] lg:w-32 lg:h-32 lg:mr-[10%] lg:mb-[450px]">
             <Image
-              src={"/gallery/g2-1.png"}
+              src={"/gallery/g2-01.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute mr-96 mb-[150px] lg:w-32 lg:h-24 lg:mr-[60%] lg:mb-[200px]">
             <Image
-              src={"/gallery/g2-2.png"}
+              src={"/gallery/g2-02.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute ml-40 mt-[450px] lg:w-32 lg:h-24 lg:ml-[60%] lg:mt-[250px]">
             <Image
-              src={"/gallery/g2-3.png"}
+              src={"/gallery/g2-03.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
@@ -165,19 +165,19 @@ const page = () => {
         >
           <div className=" w-32 h-24 bg-red-500 absolute ml-60 mb-[250px] lg:w-48 lg:h-36 lg:ml-[40%] lg:mb-[350px]">
             <Image
-              src={"/gallery/g2-4.png"}
+              src={"/gallery/g2-04.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-28 h-24 bg-red-500 absolute mr-40 mt-[250px] lg:w-52 lg:h-40 lg:mr-[20%] lg:mt-[450px]">
             <Image
-              src={"/gallery/g2-5.png"}
+              src={"/gallery/g2-05.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
@@ -187,11 +187,11 @@ const page = () => {
       <section className="relative snap-start w-full h-full bg-slate-100 flex items-center justify-center">
         <Image
           priority
-          src={"/gallery/bg3.svg"}
+          src={"/gallery/bg3.webp"}
           alt=""
-          width={100}
-          height={100}
-          className=" w-full h-full object-cover absolute"
+          width={1000}
+          height={1000}
+          className=" w-full h-full object-cover absolute brightness-50"
         />
         <motion.div
           initial="offscreen"
@@ -202,28 +202,28 @@ const page = () => {
         >
           <div className=" w-20 h-20 bg-red-500 absolute mb-[500px] lg:w-32 lg:h-32 lg:mr-[10%] lg:mb-[450px]">
             <Image
-              src={"/gallery/g3-01.png"}
+              src={"/gallery/g3-01.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute mr-96 mb-[150px] lg:w-32 lg:h-24 lg:mr-[60%] lg:mb-[200px]">
             <Image
-              src={"/gallery/g3-02.png"}
+              src={"/gallery/g3-02.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute ml-40 mt-[450px] lg:w-32 lg:h-24 lg:ml-[60%] lg:mt-[250px]">
             <Image
-              src={"/gallery/g3-03.png"}
+              src={"/gallery/g3-03.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
@@ -237,19 +237,19 @@ const page = () => {
         >
           <div className=" w-32 h-24 bg-red-500 absolute ml-60 mb-[250px] lg:w-48 lg:h-36 lg:ml-[40%] lg:mb-[350px]">
             <Image
-              src={"/gallery/g3-04.png"}
+              src={"/gallery/g3-04.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-28 h-24 bg-red-500 absolute mr-40 mt-[250px] lg:w-52 lg:h-40 lg:mr-[20%] lg:mt-[450px]">
             <Image
-              src={"/gallery/g3-05.png"}
+              src={"/gallery/g3-05.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
@@ -259,11 +259,11 @@ const page = () => {
       <section className="relative snap-start w-full h-full bg-slate-700 flex items-center justify-center">
         <Image
           priority
-          src={"/gallery/bg4.svg"}
+          src={"/gallery/bg4.webp"}
           alt=""
-          width={100}
-          height={100}
-          className=" w-full h-full object-cover absolute"
+          width={1000}
+          height={1000}
+          className=" w-full h-full object-cover absolute brightness-50"
         />
         <motion.div
           initial="offscreen"
@@ -274,28 +274,28 @@ const page = () => {
         >
           <div className=" w-20 h-20 bg-red-500 absolute mb-[500px] lg:w-32 lg:h-32 lg:mr-[10%] lg:mb-[450px]">
             <Image
-              src={"/gallery/g4-01.png"}
+              src={"/gallery/g4-01.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute mr-96 mb-[150px] lg:w-32 lg:h-24 lg:mr-[60%] lg:mb-[200px]">
             <Image
-              src={"/gallery/g4-02.png"}
+              src={"/gallery/g4-02.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-20 h-16 bg-red-500 absolute ml-40 mt-[450px] lg:w-32 lg:h-24 lg:ml-[60%] lg:mt-[250px]">
             <Image
-              src={"/gallery/g4-03.png"}
+              src={"/gallery/g4-03.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
@@ -309,19 +309,19 @@ const page = () => {
         >
           <div className=" w-32 h-24 bg-red-500 absolute ml-60 mb-[250px] lg:w-48 lg:h-36 lg:ml-[40%] lg:mb-[350px]">
             <Image
-              src={"/gallery/g4-04.png"}
+              src={"/gallery/g4-04.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>
           <div className=" w-28 h-24 bg-red-500 absolute mr-40 mt-[250px] lg:w-52 lg:h-40 lg:mr-[20%] lg:mt-[450px]">
             <Image
-              src={"/gallery/g4-05.png"}
+              src={"/gallery/g4-05.webp"}
               alt=""
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" w-full h-full object-cover "
             />
           </div>

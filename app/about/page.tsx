@@ -18,10 +18,10 @@ const page = () => {
         </h1>
         <div className=" bg-slate-600 w-44 h-80 md:w-64 md:h-[500px]  absolute">
           <Image
-            src={"/about/since.svg"}
+            src={"/about/since.webp"}
             alt=""
-            width={100}
-            height={100}
+            width={300}
+            height={300}
             className=" w-full h-full object-cover"
           />
         </div>
@@ -29,10 +29,10 @@ const page = () => {
       <section className=" mb-40 md:m-60 lg:flex items-center lg:space-x-8 xl:space-x-12">
         <div className=" w-56 h-72 md:w-80 md:h-[450px] xl:w-80 xl:h-[400px] bg-slate-600 mb-5">
           <Image
-            src={"/about/branch.svg"}
+            src={"/about/branch.webp"}
             alt=""
-            width={100}
-            height={100}
+            width={300}
+            height={300}
             className=" w-full h-full object-cover"
           />
         </div>
@@ -61,10 +61,10 @@ const page = () => {
           <div className="flex flex-col items-center space-y-3">
             <div className="  w-[135px] h-40 md:w-[170px] md:h-52  ">
               <Image
-                src={"/about/award1.svg"}
+                src={"/about/award1.webp"}
                 alt=""
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
@@ -75,10 +75,10 @@ const page = () => {
           <div className="flex flex-col items-center space-y-3">
             <div className="  w-[135px] h-40 md:w-[170px] md:h-52  ">
               <Image
-                src={"/about/award2.svg"}
+                src={"/about/award2.webp"}
                 alt=""
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
@@ -89,10 +89,10 @@ const page = () => {
           <div className="flex flex-col items-center space-y-3">
             <div className="  w-[135px] h-40 md:w-[170px] md:h-52  ">
               <Image
-                src={"/about/award3.svg"}
+                src={"/about/award3.webp"}
                 alt=""
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
@@ -103,10 +103,10 @@ const page = () => {
           <div className="flex flex-col items-center space-y-3">
             <div className="  w-[135px] h-40 md:w-[170px] md:h-52  ">
               <Image
-                src={"/about/award4.svg"}
+                src={"/about/award4.webp"}
                 alt=""
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className=" w-full h-full object-cover rounded-t-full"
               />
             </div>
