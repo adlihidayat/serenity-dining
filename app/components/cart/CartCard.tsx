@@ -79,10 +79,10 @@ const CardCart = ({ data, index, mutate }: any) => {
       } bg-[#124731] w-full p-5 lg:px-7 rounded-xl md:flex justify-between`}
     >
       <div>
-        <h3 className={` text-2xl ${forum.className} mb-1`}>
+        <h1 className={` text-2xl ${forum.className} mb-1`}>
           {data.item.name}
-        </h3>
-        <h4 className=" text-sm text-[#909762] mb-2">{data.item.type}</h4>
+        </h1>
+        <h2 className=" text-sm text-[#909762] mb-2">{data.item.type}</h2>
       </div>
       <div className="flex justify-between items-center">
         <div className="flex items-center space-x-3 md:mr-10">

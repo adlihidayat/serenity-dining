@@ -35,20 +35,6 @@ const Order = ({ data, totalPrice, session }: any) => {
 
   const order = async (e: any) => {
     e.preventDefault();
-    // let back = [];
-    // let items = result.split(",");
-    // for (let i = 0; i < items.length; i++) {
-    //   let parts = items[i].split("-");
-    //   let obj = {
-    //     item: {
-    //       name: parts[1],
-    //       price: Number(parts[2]),
-    //     },
-    //     quantity: Number(parts[0]),
-    //     total: Number(parts[3]),
-    //   };
-    //   back.push(obj);
-    // }
     let items: any = [];
 
     for (const item of data) {
@@ -97,10 +83,13 @@ const Order = ({ data, totalPrice, session }: any) => {
         onChange={(e: any) => setName(e.target.value)}
       />
       <div className=" w-full flex flex-col space-y-3 md:space-y-0 md:flex-row md:space-x-3 mb-3 max-w-4xl">
+        <label htmlFor="roomType" className=" hidden">
+          roomType
+        </label>
         <select
           value={roomType}
           name=""
-          id=""
+          id="roomType"
           className="flex-1 bg-[#D9D9D9] px-3 py-1 rounded text-gray-800"
           onChange={(e: any) => setRoomType(e.target.value)}
         >
@@ -120,10 +109,13 @@ const Order = ({ data, totalPrice, session }: any) => {
             Sunset Cocktails And Tapas ($30)
           </option>
         </select>
+        <label htmlFor="place" className=" hidden">
+          place
+        </label>
         <select
           value={location}
           name=""
-          id=""
+          id="place"
           onChange={(e: any) => setLocation(e.target.value)}
           className="flex-1  bg-[#D9D9D9] px-3 py-1 rounded text-gray-800"
         >
