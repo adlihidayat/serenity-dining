@@ -104,55 +104,55 @@ const Nav = () => {
             variants={navContainer}
             className="w-full h-full flex flex-col items-center justify-center text-4xl space-y-5"
           >
-            <motion.button
+            <motion.li
               onClick={() => setIsOpen(false)}
               variants={navItem}
               className=" absolute text-4xl left-10 md:left-20 top-10 md:text-5xl hover:text-[#776403] duration-300 ease-in-out "
             >
               x
-            </motion.button>
-            <motion.button
+            </motion.li>
+            <motion.li
               className="hover:text-[#776403] duration-300 ease-in-out md:hidden"
               onClick={() => setIsOpen(false)}
               variants={navItem}
             >
               <Link href={"/profile"}>PROFILE</Link>
-            </motion.button>
-            <motion.button
+            </motion.li>
+            <motion.li
               className="hover:text-[#776403] duration-300 ease-in-out "
               onClick={() => setIsOpen(false)}
               variants={navItem}
             >
               <Link href={"/"}>HOME</Link>
-            </motion.button>
-            <motion.button
+            </motion.li>
+            <motion.li
               className="hover:text-[#776403] duration-300 ease-in-out "
               onClick={() => setIsOpen(false)}
               variants={navItem}
             >
               <Link href={"/about"}>ABOUT</Link>
-            </motion.button>
-            <motion.button
+            </motion.li>
+            <motion.li
               className="hover:text-[#776403] duration-300 ease-in-out "
               onClick={() => setIsOpen(false)}
               variants={navItem}
             >
               <Link href={"/gallery"}>GALLERY</Link>
-            </motion.button>
-            <motion.button
+            </motion.li>
+            <motion.li
               className="hover:text-[#776403] duration-300 ease-in-out "
               onClick={() => setIsOpen(false)}
               variants={navItem}
             >
               <Link href={"/menu"}>MENU</Link>
-            </motion.button>
-            <motion.button
+            </motion.li>
+            <motion.li
               className="hover:text-[#776403] duration-300 ease-in-out "
               onClick={() => setIsOpen(false)}
               variants={navItem}
             >
               <Link href={"/cart"}>CART</Link>
-            </motion.button>
+            </motion.li>
           </motion.ul>
         </motion.div>
         <button
