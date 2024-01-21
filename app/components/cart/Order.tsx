@@ -82,15 +82,13 @@ const Order = ({ data, totalPrice, session }: any) => {
         placeholder="name"
         onChange={(e: any) => setName(e.target.value)}
       />
-      <div className=" w-full flex flex-col space-y-3 md:space-y-0 md:flex-row md:space-x-3 mb-3 max-w-4xl">
-        <label htmlFor="roomType" className=" hidden">
-          roomType
-        </label>
+      <div className=" w-full flex flex-col space-y-3 md:space-y-0 md:flex-row mb-3 max-w-4xl">
         <select
+          aria-label="room type"
           value={roomType}
           name=""
           id="roomType"
-          className="flex-1 bg-[#D9D9D9] px-3 py-1 rounded text-gray-800"
+          className="flex-1 bg-[#D9D9D9] px-3 py-1 rounded text-gray-800  md:mr-3"
           onChange={(e: any) => setRoomType(e.target.value)}
         >
           <option value={0} disabled className=" text-gray-200">
@@ -109,10 +107,8 @@ const Order = ({ data, totalPrice, session }: any) => {
             Sunset Cocktails And Tapas ($30)
           </option>
         </select>
-        <label htmlFor="place" className=" hidden">
-          place
-        </label>
         <select
+          aria-label="place"
           value={location}
           name=""
           id="place"
@@ -137,9 +133,9 @@ const Order = ({ data, totalPrice, session }: any) => {
         className=" w-full mb-8 max-w-4xl bg-[#D9D9D9] px-3 py-1 rounded text-black outline-none"
       />
       <div className=" w-full max-w-4xl flex justify-between items-center">
-        <h4 className=" font-semibold">
+        <span className=" font-semibold">
           TOTAL PRICE : ${totalPrice + Number(roomType)}
-        </h4>
+        </span>
         <input
           type="submit"
           onClick={order}
