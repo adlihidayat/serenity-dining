@@ -1,5 +1,7 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import MenuCard from "./MenuCard";
+import useSWR from "swr";
 
 const Main = ({ menu }: any) => {
   return menu?.map(
@@ -36,8 +38,17 @@ async function getData() {
   return res.json();
 }
 
-const MenuContainer = async () => {
-  const menus = await getData();
+const MenuContainer = () => {
+  // const menus = await getData();
+  const fetcher = async (url: any) => {
+    const res = await fetch(url);
+
+    if (!res.ok) {
+      throw new Error(`Failed to fetch data: ${res.status} ${res.statusText}`);
+    }
+    return res.json();
+  };
+  const { data: menus, mutate } = useSWR(`/api/item`, fetcher);
 
   return (
     <>

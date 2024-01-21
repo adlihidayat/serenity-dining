@@ -42,7 +42,7 @@ const MenuCard = ({ data, index }: any) => {
             }),
           });
           if (response.ok) {
-            ("new!");
+            console.log("new!");
           }
         } else {
           const response = await fetch(`/api/cart/${item.id}`, {
@@ -53,7 +53,7 @@ const MenuCard = ({ data, index }: any) => {
             }),
           });
           if (response.ok) {
-            ("added!");
+            console.log("added!");
           }
         }
       } catch (error) {
