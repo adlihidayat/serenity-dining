@@ -13,9 +13,10 @@ const poppins = Poppins({
 });
 
 async function getData(id: any) {
-  const res = await fetch(`/api/order/${id}`);
+  const res = await fetch(
+    `https://serenity-dining.vercel.app//api/order/${id}`
+  );
   if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
     throw new Error("Failed to fetch data");
   }
 
