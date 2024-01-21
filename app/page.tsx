@@ -37,9 +37,9 @@ export default async function Home() {
           >
             Serenity Dining Co.
           </span>
-          <h4 className=" text-[54px] lg:text-[85px] leading-[45px] mb-10 lg:mb-5 max-w-4xl text-center lg:leading-[70px]">
+          <h1 className=" text-[54px] lg:text-[85px] leading-[45px] mb-10 lg:mb-5 max-w-4xl text-center lg:leading-[70px]">
             ELEGANT CULINARY EXPERIENCE
-          </h4>
+          </h1>
           <p
             className={`${poppins.className} text-[#928C0D] mb-24 lg:mb-14 text-sm lg:font-light max-w-lg`}
           >
@@ -115,9 +115,9 @@ export default async function Home() {
           <div className="w-full flex flex-col items-center">
             <div className="flex w-full max-w-5xl justify-between bg-[#124731] py-5 px-6 rounded-xl">
               <div className=" w-56 flex flex-col md:flex-row md:w-max md:mr-8">
-                <h3 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
+                <h2 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
                   Volutpat quis tortor.
-                </h3>
+                </h2>
                 <p
                   className={`${poppins.className} text-xs lg:text-base max-w-md lg:leading-none lg:font-medium lg:mt-2 font-light text-justify text-[#909762]`}
                 >
@@ -132,9 +132,9 @@ export default async function Home() {
             </div>
             <div className="flex w-full max-w-5xl justify-between bg-[#124731 py-5 px-6 rounded-xl">
               <div className=" w-52 flex flex-col md:flex-row md:w-max md:mr-8">
-                <h3 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
+                <h2 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
                   Volutpat quis tortor.
-                </h3>
+                </h2>
                 <p
                   className={`${poppins.className} text-xs lg:text-base max-w-md lg:leading-none lg:font-medium lg:mt-2 font-light text-justify text-[#909762]`}
                 >
@@ -149,9 +149,9 @@ export default async function Home() {
             </div>
             <div className="flex w-full max-w-5xl justify-between bg-[#124731] py-5 px-6 rounded-xl">
               <div className=" w-52 flex flex-col md:flex-row md:w-max md:mr-8">
-                <h3 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
+                <h2 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
                   Volutpat quis tortor.
-                </h3>
+                </h2>
                 <p
                   className={`${poppins.className} text-xs lg:text-base max-w-md lg:leading-none lg:font-medium lg:mt-2 font-light text-justify text-[#909762]`}
                 >
@@ -166,9 +166,9 @@ export default async function Home() {
             </div>
             <div className="flex w-full max-w-5xl justify-between bg-[#124731 py-5 px-6 rounded-xl">
               <div className=" w-52 flex flex-col md:flex-row md:w-max md:mr-8">
-                <h3 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
+                <h2 className=" text-3xl leading-none mb-2 md:mb-0 md:mr-8">
                   Volutpat quis tortor.
-                </h3>
+                </h2>
                 <p
                   className={`${poppins.className} text-xs lg:text-base max-w-md lg:leading-none lg:font-medium lg:mt-2 font-light text-justify text-[#909762]`}
                 >
@@ -255,9 +255,9 @@ export default async function Home() {
                 height={300}
                 className="mix-blend-screen w-32 h-32 lg:w-52 lg:h-52 absolute"
               />
-              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
+              <h2 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
                 PRIVATE DINING OPTIONS
-              </h3>
+              </h2>
               <p
                 className={`${poppins.className} text-[#C7BA76] text-xs lg:text-sm font-light leading-none`}
               >
@@ -274,9 +274,9 @@ export default async function Home() {
                 height={300}
                 className="mix-blend-screen w-32 h-32 lg:w-52 lg:h-52 absolute"
               />
-              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
+              <h2 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
                 ARTISANAL CULINARY EVENTS
-              </h3>
+              </h2>
               <p
                 className={`${poppins.className} text-[#C7BA76] text-xs lg:text-sm font-light leading-none`}
               >
@@ -312,9 +312,9 @@ export default async function Home() {
                 height={300}
                 className="mix-blend-screen w-32 h-32 lg:w-52 lg:h-52 absolute"
               />
-              <h3 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
+              <h2 className=" leading-none text-xl lg:text-4xl mb-2 mt-20 lg:mt-32">
                 SOMMELIER EXPERTISE
-              </h3>
+              </h2>
               <p
                 className={`${poppins.className} text-[#C7BA76] text-xs lg:text-sm font-light leading-none`}
               >

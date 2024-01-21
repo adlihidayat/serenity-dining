@@ -12,7 +12,10 @@ const Footer = () => {
   return (
     <div>
       <div className="flex space-x-2 items-center mb-2">
-        <a href="" aria-label="go to serenity official gmail">
+        <a
+          href="https://www.gmail.com"
+          aria-label="go to serenity official gmail"
+        >
           <Image
             src={"/socialMedia/gmail.svg"}
             alt=""
@@ -21,7 +24,10 @@ const Footer = () => {
             className="w-8 h-8 "
           />
         </a>
-        <a href="" aria-label="go to serenity official whatsapp">
+        <a
+          href="https://www.whatsapp.com"
+          aria-label="go to serenity official whatsapp"
+        >
           <Image
             src={"/socialMedia/whatsapp.svg"}
             alt=""
@@ -30,7 +36,10 @@ const Footer = () => {
             className="w-7 h-7 "
           />
         </a>
-        <a href="" aria-label="go to serenity official instagram">
+        <a
+          href="https://www.instagram.com"
+          aria-label="go to serenity official instagram"
+        >
           <Image
             src={"/socialMedia/instagram.svg"}
             alt=""
@@ -39,7 +48,10 @@ const Footer = () => {
             className="w-7 h-7 "
           />
         </a>
-        <a href="" aria-label="go to serenity official youtube">
+        <a
+          href="https://www.youtube.com"
+          aria-label="go to serenity official youtube"
+        >
           <Image
             src={"/socialMedia/youtube.svg"}
             alt=""
