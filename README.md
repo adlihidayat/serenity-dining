@@ -37,10 +37,10 @@ A <b>Restaurant web app</b> that show the user the detail of the restaurant (lik
 
 Here are the features of this website:
 
-- <b>Login</b>, user can login using their google or Github account
-- <b>Search</b>, Bar user can search friend easily by its name
-- <b>Add</b>, Friend user can add friend by the email
-- <b>Realtime</b>, Chat the app can connect wherever and whenever the user in time
+- <b>Login</b>, user can login using their google account
+- <b>Cart</b>, save selected item
+- <b>Payment</b>, payment using various method
+- <b>Parallax Gallery</b>, have fancy parallax effect in gallery showcase
 
 ## 🛠️ Tools
 
@@ -52,6 +52,7 @@ The website is built using a robust tech stack, incorporating cutting-edge techn
 - <b>Prisma</b>, ORM that helps developers interact with databases
 - <b>Framer Motion</b>, Production-ready animation and gesture library
 - <b>NextAuth</b>, Open-source authentication solution for Next js
+- <b>Stripe</b>, Stripe is a platform for online and in-person payments
 
 ## 💿 Usage
 
