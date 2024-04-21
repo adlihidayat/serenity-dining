@@ -63,5 +63,5 @@ To get started, simply visit our website at <https://serenity-dining.vercel.app>
 3. Add some menu that you like
 4. Go to cart after finish choosing menu
 5. Fill the form and make sure the order before submit it
-6. Choose the payment method
+6. Choose the payment method. fill the card information with 4242 4242 4242 4242, MM/YY with 12/34, and cvc with 567
 7. Get the receipt
